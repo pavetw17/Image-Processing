@@ -1,0 +1,8 @@
+E:\Codes\XLA\Anh_Xam\Anh_Xam\bin\Debug\Anh_Xam.exe
+E:\Codes\XLA\Anh_Xam\Anh_Xam\bin\Debug\Anh_Xam.pdb
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\ResolveAssemblyReference.cache
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\Anh_Xam.Form1.resources
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\Anh_Xam.Properties.Resources.resources
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\Anh_Xam.csproj.GenerateResource.Cache
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\Anh_Xam.exe
+E:\Codes\XLA\Anh_Xam\Anh_Xam\obj\Debug\Anh_Xam.pdb

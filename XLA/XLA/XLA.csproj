@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EC555D8-F673-4D42-A2A6-5DE10520A296}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Anh_Xam</RootNamespace>
+    <AssemblyName>Anh_Xam</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anh_Xam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anh_Xam.Designer.cs">
+      <DependentUpon>Anh_Xam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Averaging_Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Averaging_Filter.Designer.cs">
+      <DependentUpon>Averaging_Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dilation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dilation.Designer.cs">
+      <DependentUpon>Dilation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Erosion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Erosion.Designer.cs">
+      <DependentUpon>Erosion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Laplacian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laplacian.Designer.cs">
+      <DependentUpon>Laplacian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Max_Min_Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Max_Min_Filter.Designer.cs">
+      <DependentUpon>Max_Min_Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Median_Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Median_Filter.Designer.cs">
+      <DependentUpon>Median_Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Histogram.Designer.cs">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Anh_Xam.resx">
+      <DependentUpon>Anh_Xam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Averaging_Filter.resx">
+      <DependentUpon>Averaging_Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dilation.resx">
+      <DependentUpon>Dilation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Erosion.resx">
+      <DependentUpon>Erosion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Histogram.resx">
+      <DependentUpon>Histogram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laplacian.resx">
+      <DependentUpon>Laplacian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Max_Min_Filter.resx">
+      <DependentUpon>Max_Min_Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Median_Filter.resx">
+      <DependentUpon>Median_Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZoomIn_ZoomOut.resx">
+      <DependentUpon>ZoomIn_ZoomOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ZoomIn_ZoomOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZoomIn_ZoomOut.Designer.cs">
+      <DependentUpon>ZoomIn_ZoomOut.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1352414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lena_saltpepper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-23-2013 10-36-11 AM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peppers_spnoise25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mau_nhieu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_dila.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ero_A.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salt_noise.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maybay_noise.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

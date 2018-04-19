@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XLA">
+</Property><Property Name="Solution File" Value="E:\Codes\XLA\XLA\XLA.sln">
+</Property><Property Name="Date" Value="Sunday, February 10, 2013">
+</Property><Property Name="Time" Value="15:03 PM">
+</Property></Properties><Event ErrorLevel="0" Project="XLA" Source="XLA\XLA.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="XLA" Source="XLA\XLA.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="XLA.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="XLA.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XLA" Source="XLA\XLA.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
